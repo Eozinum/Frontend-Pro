@@ -1,0 +1,48 @@
+#table {
+  padding-top: 40px;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 3px solid blue;
+  margin: auto;
+}
+
+
+td {
+  border: 1px solid blue;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(33, 12, 139);
+  padding: 10px;
+}
+
+.yellow-row {
+  background-color: yellow;
+}
+
+#form {
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+input {
+  margin-right: 10px;
+  font-size: 20px;
+  color: rgb(33, 12, 139);
+  outline: none;
+
+}
+
+input:focus {
+  border: 3px solid blue;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(33, 12, 139);
+  background-color: rgb(192, 218, 238);
+  cursor: pointer;
+}
