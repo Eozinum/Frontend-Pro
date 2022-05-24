@@ -1,0 +1,48 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.accItem {
+  max-width: 900px;
+  box-shadow: 2px 3px 8px -2px #17480a70;
+  margin-bottom: 5px;
+}
+
+.avatar {
+  border: 1px solid rgb(1, 29, 10);
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accHeader {
+  padding: 10px;
+  color: rgb(5, 62, 33);
+  background-color: rgb(242, 245, 242);
+  cursor: pointer;
+}
+
+.accBody {
+  display: flex;
+  justify-content:space-around;
+  max-height: 0;
+  overflow: hidden;
+  color: rgb(5, 62, 33);
+  background-color: rgb(242, 245, 242);
+  /* transition: max-height 0.2s; */
+}
+
+.avatar, .info_1, .info_2 {
+  min-width: 250px;
+}
+
+p {
+  border: 1px solid rgb(1, 29, 10);
+  padding: 4px;
+}
+
+.show {
+  max-height: 200px;
+  overflow: auto;
+}
